@@ -18,7 +18,7 @@ This tool is based upon [Psi](https://github.com/TechieGamer1/Psi) .This is a te
  
 #### Video Tutorial 
 
-[![Video Tutorial](https://github.com/TechieGamer1/TrackDown/blob/main/vid.png)](https://github.com/TechieGamer1/TrackDown/blob/main/vid.mp4?raw=true)
+[![Video Tutorial](https://t.me/TechieGamer/4688)](https://t.me/TechieGamer/4688)
  
 
 ### How to build
