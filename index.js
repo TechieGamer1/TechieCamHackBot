@@ -139,7 +139,7 @@ bot.sendMessage(cid, `New links has been created successfully.You can use any on
 }
 }
 else{
-bot.sendMessage(cid,`⚠️ Please Enter a valid URL , including http or https.`);
+bot.sendMessage(cid,`⚠️ Please Enter a valid URL , including http or https`);
 createNew(cid);
 
 }  
