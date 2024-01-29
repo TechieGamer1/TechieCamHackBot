@@ -5,13 +5,13 @@
 
 <div align="center">
 
-[![https://telegram.me/TechieGamer](https://img.shields.io/badge/Telegram-Channel-orange.svg?style=flat-square)](https://telegram.me/TechieGamer)
-[![https://telegram.me/TechieGamer](https://img.shields.io/badge/Telegram-@TechieGamer-blue.svg?style=flat-square)](https://telegram.me/TechieGamer)
+[![https://telegram.me/Techie_Gamer](https://img.shields.io/badge/Telegram-Channel-orange.svg?style=flat-square)](https://telegram.me/Techie_Gamer)
+[![https://telegram.me/Techie_Gamer](https://img.shields.io/badge/Telegram-@Techie_Gamer-blue.svg?style=flat-square)](https://telegram.me/Techie_Gamer)
 
 </div>
 
 This tool is based upon [Psi](https://github.com/TechieGamer1/Psi) .This is a telegram implementation with extra features than Psi.
-### Try it at [@TechieCamHackerBot](https://t.me/TechieGamer)
+### Try it at [@TechieCamHackerBot](https://t.me/Techie_Gamer)
 
 
 [![Run on Repl.it](https://repl.it/badge/github/TechieGamer1/TrackDown)](https://repl.it/github/TechieGamer1/TrackDown)
